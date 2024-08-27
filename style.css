@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    color: #fff;
+    min-height: 100vh;
+    background: radial-gradient(at 62.50692980923513% 79.22181609038077%, hsla(320, 82.97872340425535%, 81.56862745098039%, 1) 0%, hsla(320, 82.97872340425535%, 81.56862745098039%, 0) 100%), radial-gradient(at 23.019286452426037% 35.78478958440128%, hsla(283.88888888888886, 45%, 47.05882352941176%, 1) 0%, hsla(283.88888888888886, 45%, 47.05882352941176%, 0) 100%), radial-gradient(at 67.17241814092078% 13.464259050250238%, hsla(325.2475247524753, 91.81818181818184%, 56.86274509803921%, 1) 0%, hsla(325.2475247524753, 91.81818181818184%, 56.86274509803921%, 0) 100%), radial-gradient(at 17.698022547299598% 69.28836901499211%, hsla(320, 82.97872340425535%, 81.56862745098039%, 1) 0%, hsla(320, 82.97872340425535%, 81.56862745098039%, 0) 100%), radial-gradient(at 14.203694380001973% 85.68935392633263%, hsla(283.88888888888886, 45%, 47.05882352941176%, 1) 0%, hsla(283.88888888888886, 45%, 47.05882352941176%, 0) 100%);            
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #0f0908;
+}
+
+#main{
+    max-width: 580px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#identificacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 40px 0;
+}
+
+#fotoPerfil{
+    border: 3px solid #0f0908;
+    border-radius: 50%;
+    max-width: 180px;
+}
+
+.identificacao_usuario{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0 0 0;
+}
+
+#identificacao  h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #0f0908;
+}
+
+#verify{
+    width: 20px;
+    height: 20px;
+    fill: #0f0908;
+}
+
+#identificacao  h2, #identificacao h3{
+    color: #0f0908;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 15px 0 0 0;
+    font-size: 24px;
+}
+
+#menuLinks{
+    margin: 0 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links{
+    padding: 16px 15px;
+    border: 2px solid #0f0908;
+    border-radius: 6px;
+    background-color: transparent;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 30px;
+    color: #0f0908;
+}
+
+.links:hover{
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+.imagemNome{
+    display: flex;
+    gap: 10px;
+}
+
+.redesocial{
+    margin: 0 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#iconeInstagram, #iconeFace{
+    width: 30px;
+}
+
+#linkInstagram, #linkFace{
+    transition: .3s;
+}
+
+#linkInstagram:hover{
+    color: rgb(241, 105, 241);
+}
+
+#linkFace:hover{
+    color: #0795fa;
+}
+
+#rodape{
+    font-family: "Roboto", sans-serif;
+}
+
+#rodape  h4{
+    color: #0f0908;
+    font-size: 16px;
+}
+
+#rodape  span{
+color: #f34147;
+}
