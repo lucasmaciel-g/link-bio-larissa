@@ -22,8 +22,8 @@ a{
 }
 
 #main{
-    max-width: 580px;
-    padding: 20px 40px;
+    max-width: 36.25rem;
+    padding: 1.25rem 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,62 +33,67 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 0 40px 0;
+    margin: 0 0 2.5rem 0;
 }
 
 #fotoPerfil{
-    border: 3px solid #0f0908;
+    border: 0.1875rem solid #0f0908;
     border-radius: 50%;
-    max-width: 180px;
+    max-width: 11.25rem;
 }
 
 .identificacao_usuario{
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin: 10px 0 0 0;
+    gap: 0.3125rem;
+    margin: 0.625rem 0 0 0;
 }
 
 #identificacao  h1{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 16px;
+    font-size: 1rem;
     color: #0f0908;
 }
 
 #verify{
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     fill: #0f0908;
 }
 
 #identificacao  h2, #identificacao h3{
     color: #0f0908;
     font-family: "Roboto", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
-    margin: 15px 0 0 0;
-    font-size: 24px;
+    margin: 0.9375rem 0 0 0;
+    font-size: 2rem;
+}
+
+#identificacao h3{
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 #menuLinks{
     margin: 0 0 60px 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .links{
-    padding: 16px 15px;
-    border: 2px solid #0f0908;
-    border-radius: 6px;
+    padding: 1rem 0.9375rem;
+    border: 0.125rem solid #0f0908;
+    border-radius: 0.375rem;
     background-color: transparent;
     transition: .4s;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0 30px;
+    gap: 0 1.875rem;
     color: #0f0908;
 }
 
@@ -98,19 +103,19 @@ a{
 
 .imagemNome{
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .redesocial{
-    margin: 0 0 40px 0;
+    margin: 0 0 1.8rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 1.2rem;
 }
 
 #iconeInstagram, #iconeFace{
-    width: 30px;
+    width: 1.875rem;
 }
 
 #linkInstagram, #linkFace{
@@ -131,7 +136,7 @@ a{
 
 #rodape  h4{
     color: #0f0908;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 #rodape  span{
