@@ -143,3 +143,76 @@ a{
 #rodape  span{
 color: #f34147;
 }
+
+/* Media Queries para melhorar a responsividade */
+
+/* Para telas médias (tablets) */
+@media (max-width: 768px) {
+    #main {
+        max-width: 90%;
+        padding: 1.2rem 2rem;
+    }
+}
+
+/* Para telas pequenas (celulares) */
+@media (max-width: 480px) {
+    #main {
+        padding: 1rem 1.5rem;
+        max-width: 95%;
+    }
+    
+    #fotoPerfil {
+        max-width: 9rem;
+    }
+    
+    #identificacao h2 {
+        font-size: 1.4rem;
+    }
+    
+    #identificacao h3 {
+        font-size: 1rem;
+    }
+    
+    .links {
+        padding: 0.9rem 0.8rem;
+    }
+    
+    .redesocial {
+        gap: 1rem;
+    }
+}
+
+/* Para telas muito pequenas */
+@media (max-width: 320px) {
+    #main {
+        padding: 0.8rem 1rem;
+    }
+    
+    #fotoPerfil {
+        max-width: 8rem;
+    }
+    
+    .links {
+        padding: 0.8rem 0.7rem;
+    }
+    
+    #identificacao h2 {
+        font-size: 1.3rem;
+    }
+    
+    #identificacao h3 {
+        font-size: 0.9rem;
+    }
+    
+    .imagemNome {
+        gap: 0.4rem;
+    }
+    
+    .redesocial {
+        gap: 0.8rem;
+    }
+    
+    #rodape h4 {
+        font-size: 0.9rem;
+    }
+}
